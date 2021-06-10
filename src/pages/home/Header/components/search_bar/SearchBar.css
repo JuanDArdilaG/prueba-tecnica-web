@@ -1,0 +1,8 @@
+#searchbar-logo {
+  margin: 2px;
+  padding: 0.3rem 0.5rem;
+}
+
+input:focus {
+  outline: none;
+}
