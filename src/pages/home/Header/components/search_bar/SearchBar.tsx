@@ -12,7 +12,9 @@ export default function SearchBar() {
         placeholder="¿Qué estás buscando? Escríbelo aquí..."
       />
       <div id="searchbar-logo" className="bg-black px-2 rounded">
-        <Search color="white" className="w-11/12" />
+        <a href="#">
+          <Search color="white" className="w-11/12" />
+        </a>
       </div>
     </div>
   );

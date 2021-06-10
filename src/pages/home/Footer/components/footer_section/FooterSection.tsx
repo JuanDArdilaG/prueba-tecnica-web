@@ -6,7 +6,7 @@ export default function FooterSection(
 ) {
   return (
     <div>
-      <div className={`px-3 flex flex-col ${props.className || ""}`}>
+      <div className={`main px-3 flex flex-col ${props.className || ""}`}>
         {props.children}
       </div>
     </div>
