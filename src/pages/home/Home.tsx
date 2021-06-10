@@ -3,9 +3,13 @@ import Header from "./Header/Header";
 
 export default function Home() {
   return (
-    <div>
-      <Header />
-      <Footer />
-    </div>
+    <>
+      <header>
+        <Header />
+      </header>
+      <footer>
+        <Footer />
+      </footer>
+    </>
   );
 }
